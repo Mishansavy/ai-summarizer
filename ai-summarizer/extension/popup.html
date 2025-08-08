@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>AI Summarizer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>AI Summarizer</header>
+
+    <section id="api">
+      <input
+        id="apiBase"
+        placeholder="Proxy base (e.g. https://your-app.vercel.app)"
+      />
+      <button id="save">Save</button>
+    </section>
+
+    <section id="controls">
+      <button id="summarizeBtn">Summarize current tab</button>
+      <button id="cancelBtn">Cancel</button>
+    </section>
+
+    <section id="status"></section>
+    <section id="output"></section>
+
+    <script type="module" src="summarizer.js"></script>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

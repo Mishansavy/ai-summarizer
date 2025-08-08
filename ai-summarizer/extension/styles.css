@@ -1,0 +1,40 @@
+body {
+  font: 14px/1.4 system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  width: 380px;
+  margin: 0;
+}
+header {
+  padding: 10px 12px;
+  font-weight: 700;
+  border-bottom: 1px solid #eee;
+}
+#api,
+#controls {
+  display: grid;
+  gap: 6px;
+  padding: 10px 12px;
+  border-bottom: 1px solid #eee;
+}
+#status {
+  padding: 10px 12px;
+  color: #666;
+  min-height: 22px;
+}
+#output {
+  padding: 10px 12px;
+  white-space: normal;
+}
+button {
+  cursor: pointer;
+}
+input {
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+h3 {
+  margin: 10px 0 6px;
+}
+ul {
+  padding-left: 18px;
+}
